@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pyc
+fastapi-app.tar
+.env
+.vscode/

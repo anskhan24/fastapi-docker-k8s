@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from Docker + Kubernetes + Azure project"}
+    return {"message": "Hello from DockerHub + Kubernetes + Github Actions"}
 
 @app.get("/health")
 def health_check():

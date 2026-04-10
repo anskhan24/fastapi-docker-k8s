@@ -29,6 +29,6 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/fastapi-app:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/fastapi-app:${{ github.sha }}
       
-      - name: Deploy to Kubernetes
-        run: |
-          kubectl rollout restart deployment fastapi-deployment
+     # - name: Deploy to Kubernetes
+      #  run: |
+       #   kubectl rollout restart deployment fastapi-deployment

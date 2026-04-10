@@ -1,0 +1,27 @@
+Project: FastAPI Docker Kubernetes CI/CD Pipeline
+
+What I built:
+- Created a FastAPI application with health endpoint
+- Containerized the application using Docker
+- Deployed the container to local Kubernetes on Docker Desktop
+- Exposed the app through a Kubernetes Service
+- Pushed container images to Docker Hub
+- Stored source code in GitHub
+- Built a GitHub Actions CI pipeline to automatically build and push Docker images
+- Used manual Kubernetes rollout restart as the CD step for local deployment
+
+Tools used:
+- Python
+- FastAPI
+- Docker
+- Kubernetes
+- Docker Hub
+- Git
+- GitHub
+- GitHub Actions
+
+Key learning:
+- Difference between local containers and Kubernetes pods
+- How Docker images are built and pushed to a registry
+- How Kubernetes deployments and services work
+- Why CI can run in GitHub Actions but local Kubernetes CD must be triggered separately

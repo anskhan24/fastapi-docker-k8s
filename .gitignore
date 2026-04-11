@@ -1,6 +1,10 @@
-venv/
-__pycache__/
-*.pyc
-fastapi-app.tar
-.env
-.vscode/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.tfvars
+
+# Azure credentials (safety)
+azure-credentials.json
